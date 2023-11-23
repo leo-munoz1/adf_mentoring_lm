@@ -1,0 +1,6 @@
+{
+	"secret_url": {
+		"type": "string",
+		"value": "https://m11-vault.vault.azure.net/secrets/Logic-App-URL/28fd790e70ec4a4f96c4fad9e127dfe0?api-version=7.0"
+	}
+}
