@@ -4,51 +4,6 @@
 	"parameters": {
 		"factoryName": {
 			"value": "mentoring-adf-lm"
-		},
-		"azure_blob_online_destination_connectionString": {
-			"value": ""
-		},
-		"azurementoringaulm_connectionString": {
-			"value": ""
-		},
-		"deleteSourceJsonFiles_connectionString": {
-			"value": ""
-		},
-		"movies_database_dynamic_connectionString": {
-			"value": ""
-		},
-		"online_Source_sudo_connectionString": {
-			"value": ""
-		},
-		"M9_db_connection_properties_typeProperties_connectionString_secretName": {
-			"value": "azure-sql-conn-string"
-		},
-		"MoviesDataBase_properties_typeProperties_connectionString_secretName": {
-			"value": "azure-sql-conn-string"
-		},
-		"Online_container_sink_properties_typeProperties_sasUri_secretName": {
-			"value": "lm-online-sink"
-		},
-		"azurementoringdatalakelm_properties_typeProperties_url": {
-			"value": "https://azurementoringdatalakelm.dfs.core.windows.net"
-		},
-		"azurementoringstoragelm_properties_typeProperties_sasUri_secretName": {
-			"value": "lm-movies-sas-url-2"
-		},
-		"mentoring_key_vault_lm_properties_typeProperties_baseUrl": {
-			"value": "https://mentoring-key-vault-lm.vault.azure.net/"
-		},
-		"online_source_connection_properties_typeProperties_sasUri_secretName": {
-			"value": "lm-movies-sas-url-2"
-		},
-		"sql_CinemaTickets_properties_typeProperties_connectionString_secretName": {
-			"value": "sql-CinemaTickets-conn-string"
-		},
-		"sql_DataMart_DB_properties_typeProperties_connectionString_secretName": {
-			"value": "sql-DataMart-database-conn"
-		},
-		"sql_movies_DB_properties_typeProperties_connectionString_secretName": {
-			"value": "azure-sql-conn-string"
 		}
 	}
 }
