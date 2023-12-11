@@ -349,11 +349,6 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
-				"variables": {
-					"new_value": {
-						"type": "String"
-					}
-				},
 				"annotations": [],
 				"lastPublishTime": "2023-08-29T05:44:55Z"
 			},
@@ -2685,42 +2680,6 @@
 				"[concat(variables('factoryId'), '/datasets/inputFiles_Act2')]",
 				"[concat(variables('factoryId'), '/datasets/outputFiles_Act2')]"
 			]
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/github')]",
-			"type": "Microsoft.DataFactory/factories/pipelines",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"activities": [
-					{
-						"name": "Set variable1",
-						"type": "SetVariable",
-						"dependsOn": [],
-						"policy": {
-							"secureOutput": false,
-							"secureInput": false
-						},
-						"userProperties": [],
-						"typeProperties": {
-							"variableName": "new_value",
-							"value": "My Variable"
-						}
-					}
-				],
-				"policy": {
-					"elapsedTimeMetric": {}
-				},
-				"variables": {
-					"new_value": {
-						"type": "String"
-					}
-				},
-				"folder": {
-					"name": "M12"
-				},
-				"annotations": []
-			},
-			"dependsOn": []
 		},
 		{
 			"name": "[concat(parameters('factoryName'), '/loadToSQL_Act5')]",
